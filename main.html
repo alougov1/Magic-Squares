@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <link rel="stylesheet" href="styling.css">
+  <title>Magic Squares</title>
+  <!-- ALWAYS keep solutionAlgorithm reference above script.js, as
+  solution algorithm will load after main script otherwise and main script
+  won't be able to call it -->
+  <script type="text/javascript" src="solutionAlgorithm.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <h1>Magic Squares</h1>
+  <h2></h2>
+  <h3>Every row, column, and diagonal must sum to target number</h3>
+
+  <div class="grid">
+    <div class="gridRow">
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+    </div>
+    <div class="gridRow">
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+    </div>
+    <div class="gridRow">
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+    </div>
+    <div class="gridRow">
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+      <div class="cell">
+        <div class="inside"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tiles">
+    <div class="row">
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+      <div class="box" draggable="true">
+        <div class="inner"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="replayButtons">
+    <button type="button" id="newGame" onclick="document.location.reload(true)">
+      New Game
+    </button>
+  </div>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
