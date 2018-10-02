@@ -7,6 +7,17 @@
   --tileDims: 70px;
 }
 
+button {
+  background-color: #bfacb5;
+  border-style: solid;
+  border-color: #7f7b82;
+  color: white;
+  padding: 20px;
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: bold;
+}
+
 body {
   font-family: 'Raleway';
   background-color: #E5D0CC;
@@ -19,6 +30,14 @@ h1 {
 h2, h3 {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.titles {
+  margin: auto;
+  padding-bottom: 2%;
+  width: 50%;
+  border-style: solid;
+  border-color: #bfacb5;
 }
 
 .grid {
@@ -72,6 +91,7 @@ h2, h3 {
     width: var(--tileDims);
     justify-content: center;
     line-height: var(--tileDims);
+    box-sizing: border-box;
 }
 .box:after {
     content: "";
